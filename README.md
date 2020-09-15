@@ -36,8 +36,26 @@ tiaan:
     4. Then add the name-of-the-article separated by dashes.
     5. Then add the file extension .MD
     6. e.g. So if I was writing an article on 03 Jan 2009 and the title was "Chancellor on brink of bailout for banks" the file should be 2009-01-03-Chancellor-on-brink-of-bailout-for-banks.MD
+4. Start your article with the following header text: 
+```
+---
+layout: post <- Never change this>
+title:  "Your title here" <- only capitalise the first word and proper nouns>
+author: tiaan <- the name you used when you added yourself as an author>
+categories: [Bitcoin, Cryptocurrency, UTXO, Scaling]
+tags: [Bitcoin, Cryptocurrency, UTXO, Scaling]
+image: assets/images/utxo.png <- Never change this>
+description: "What are UTXO's and how do they affect scaling?" <- A description for socials etc>
+featured: false <- Never change this>
+hidden: false <- Never change this>
+rating: <- Never change this>
+---
+```
+## How to submit
+
+1. Once you have completed all of the above, create a PR for your author file and article. 
+2. If you ever need to update the author file, feel free to do so and submit a PR.
+3. If you want to add additional articles, please feel free to do so and create a PR. 
     
-    
-    
-    Thanks!
-ImTiaan
+Thanks!
+Tiaan
